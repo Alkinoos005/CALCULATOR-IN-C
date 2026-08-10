@@ -27,6 +27,7 @@ gcc -o calculator main.c -lm
 
 Run the executable:
 
+'''
 Bash
 ./calculator
 📂 Project Structure
