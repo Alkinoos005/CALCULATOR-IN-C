@@ -16,10 +16,11 @@ Windows: MinGW, GCC, or MSVC
 Compilation & Execution
 Clone the repository:
 
-```bashBash
+```Bash
 git clone [https://github.com/your-username/CALCULATOR-IN-C.git](https://github.com/your-username/CALCULATOR-IN-C.git)
 cd CALCULATOR-IN-C
 Compile the program:
+```
 
 Bash
 gcc -o calculator main.c -lm
@@ -38,11 +39,9 @@ CALCULATOR-IN-C/
 ├── calculator.c     # Implementation of calculation modules
 ├── README.md        # Project documentation
 └── LICENSE          # License details
-🤝 Contributing
+
+
 Contributions, issues, and feature requests are welcome!
-
 Fork the Project
-
 Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')Here is a sleek, professional, and well-structured README for your C Calculator project. It highlights your technical skills, uses clean Markdown formatting, and gives your repository a polished look.
+Commit your Changes (git commit -m 'Add some AmazingFeature')
