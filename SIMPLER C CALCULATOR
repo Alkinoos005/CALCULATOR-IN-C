@@ -1,0 +1,16 @@
+//The Culculator in C but (in my opinion) more simple then the last one I wrote
+
+#include <stdio.h>
+
+int main() { // Main
+    double a, b; // Declaration of two double-precision floating numbers
+    printf("Enter first number: "); // Asks the user to enter the first number 
+    scanf("%lf", &a); // It reads the user's input and stores it in variable (a)
+    printf("Enter second number: "); // Asks the user to enter the the second number  
+    scanf("%lf", &b); // It reads the user's input and stores it in variable (b)
+    printf("Addition: %lf\n", a + b); // Calculates the sum of a and b and it displays the result 
+    printf("Subtraction: %lf\n", a - b); // Calculates the difference of a and b and it displays the result
+    printf("Multiplication: %lf\n", a * b); // Calculates the product of a and b and it displays the result
+    printf("Division: %lf\n", a / b); // Calculates the quotient of a and b and it displays the result
+    return 0;
+}
