@@ -12,5 +12,10 @@ int main() { // Main
     printf("Subtraction: %lf\n", a - b); // Calculates the difference of a and b and it displays the result
     printf("Multiplication: %lf\n", a * b); // Calculates the product of a and b and it displays the result
     printf("Division: %lf\n", a / b); // Calculates the quotient of a and b and it displays the result
+    if (b != 0) { // Check if the divisor b is not equal to zero to avoid division by zero
+        printf("Division: %lf\n", a / b); // Calculate the quotient of a/b and display the result
+    } else { // Execute this block if the user attempts to divide by zero
+        printf("Error: Division by zero is not allowed.\n"); // Print an error message instead of dividing
+    } 
     return 0;
 }
