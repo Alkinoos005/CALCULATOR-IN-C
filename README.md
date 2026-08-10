@@ -16,7 +16,7 @@ Windows: MinGW, GCC, or MSVC
 Compilation & Execution
 Clone the repository:
 
-Bash
+```bashBash
 git clone [https://github.com/your-username/CALCULATOR-IN-C.git](https://github.com/your-username/CALCULATOR-IN-C.git)
 cd CALCULATOR-IN-C
 Compile the program:
