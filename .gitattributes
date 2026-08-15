@@ -1,1 +1,3 @@
-
+# Force GitHub to recognize files inside these folders as C
+CODE/* linguist-language=C
+"SWITCH CODE/*" linguist-language=C
